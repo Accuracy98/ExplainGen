@@ -1,0 +1,37 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Model checkpoints / large binaries
+*.pt
+*.ckpt
+*.bin
+*.h5
+*.onnx
+
+# Output folders from training/inference
+Performance/
+results/
+flagged/
+
+# Fine-tuned model folders
+llama-3.1-8b-instruct-finetuned/
+llama-3.1-8b-instruct-finetuned2/
+DeepSeek-8B-finetuned/
+
+# Temporary or debug files
+*.log
+*.tmp
+*.bak
+*.json
+*.txt
+
+
+# Notebook & IDE junk (for future use)
+*.ipynb_checkpoints/
+
